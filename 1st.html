@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nursery Plants</title>
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            font-family: 'Arial, sans-serif';
+            background-color: skyblue;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #4CAF50;
+            color:white ;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+header1 {
+            background-color: #4CAF50;
+            color: rgb(250, 246, 246);
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        header1 h2 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        /* Navigation Bar */
+        nav {
+            background: #2E8B57;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #FFD700;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(87, 23, 23);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            background-color: white;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+            width: 300px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            padding: 15px;
+            margin: 0;
+            background: #4CAF50;
+            color: white;
+        }
+
+        .card p {
+            padding: 15px;
+            margin: 0;
+            color: #333;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .about {
+            background: url no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(186, 26, 26);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 3rem;
+        }
+
+        .about p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            background: rgb(62, 183, 216);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+       
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Karunamoy Nursery</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#plants">Our Plants</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div>
+        <h2>Discover the Joy of Gardening</h2>
+        <p>Hi, I'am Biprajoyti Kabasi </p>
+        <p>Welcome to my Website.I hope you will find your favourit plant's here.</p>
+    </div>
+</section>
+
+<main class="main-content" id="plants">
+    <div class="card">
+        <img src="https://i.pinimg.com/originals/cd/18/f1/cd18f1de9b60238d25e43e63fae5218a.jpg" alt="Flowering Plant">
+        <h3>Flowering Plant</h3>
+        <p>Add a burst of color to your garden with these beautiful blooms.</p>
+    </div>
+    <div class="card">
+        <img src="https://www.joyusgarden.com/wp-content/uploads/2022/11/succulent-varieties.jpg" alt="Succulent Plant">
+        <h3>Succulents</h3>
+        <p>Low-maintenance and stylish, perfect for any space.</p>
+    </div>
+    <div class="card">
+        <img src="https://www.loveyourlandscape.org/media/83509/herbgarden2.jpg" alt="Herb Garden">
+        <h3>Herbs</h3>
+        <p>Fresh and fragrant herbs for your kitchen garden.</p>
+    </div>
+</main>
+<section class="about">
+    <header1>
+        <h2>About</h2>
+<div>
+    <p>I am a web developer with experience in HTML,CSS and JavaScript.I enjoy creating clean,user-friendlyweb interfaces.</p>
+</div>
+</section>
+
+<section id="contact">
+    <form id="contact-form">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or need assistance, feel free to reach out!</p>
+    
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Karunamoy  Nursery. All rights reserved. | <a href="#contact">Contact Us</a></p>
+</footer>
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Thank you for your message!');
+        document.getElementById('contact-form').reset();
+    });
+</script>
+</body>
+</html>
